@@ -6,43 +6,46 @@
     <title>Medical Records</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1>Medical Records Management</h1>
+    <div id="header">
+
+        <div><h1>Medical Records Management</h1></div>
     
-    <div id="hospital">
-        <h2>Hospital</h2>
-        <form id="hospital-form">
-            <input type="text" id="hospital-id" placeholder="Hospital ID">
-            <input type="text" id="hospital-name" placeholder="Hospital Name">
-            <input type="text" id="hospital-address" placeholder="Hospital Address">
-            <input type="text" id="hospital-spec" placeholder="Specialization">
-            <button type="submit">Add Hospital</button>
-        </form>
-    </div>
+        <div id="hospital">
+            <h2>Hospital</h2>
+            <form id="hospital-form">
+                <input type="text" id="hospital-id" placeholder="Hospital ID">
+                <input type="text" id="hospital-name" placeholder="Hospital Name">
+                <input type="text" id="hospital-address" placeholder="Hospital Address">
+                <input type="text" id="hospital-spec" placeholder="Specialization">
+                <button type="submit">Add Hospital</button>
+            </form>
+        </div>
 
-    <div id="patient">
-        <h2>Patient</h2>
-        <form id="patient-form">
-            <input type="text" id="patient-id" placeholder="Patient ID">
-            <input type="text" id="patient-name" placeholder="Patient Name">
-            <input type="number" id="patient-age" placeholder="Age">
-            <input type="text" id="patient-gender" placeholder="Gender">
-            <input type="text" id="patient-height" placeholder="Height">
-            <input type="number" id="patient-weight" placeholder="Weight">
-            <input type="text" id="patient-address" placeholder="Address">
-            <input type="text" id="patient-phone" placeholder="Phone">
-            <input type="email" id="patient-email" placeholder="Email">
-            <input type="text" id="patient-date" placeholder="Date">
-            <button type="submit">Add Patient</button>
-        </form>
-    </div>
+        <div id="patient">
+            <h2>Patient</h2>
+            <form id="patient-form">
+                <input type="text" id="patient-id" placeholder="Patient ID">
+                <input type="text" id="patient-name" placeholder="Patient Name">
+                <input type="number" id="patient-age" placeholder="Age">
+                <input type="text" id="patient-gender" placeholder="Gender">
+                <input type="text" id="patient-height" placeholder="Height">
+                <input type="number" id="patient-weight" placeholder="Weight">
+                <input type="text" id="patient-address" placeholder="Address">
+                <input type="text" id="patient-phone" placeholder="Phone">
+                <input type="email" id="patient-email" placeholder="Email">
+                <input type="text" id="patient-date" placeholder="Date">
+                <button type="submit">Add Patient</button>
+            </form>
+        </div>
 
-    <div id="record">
-        <h2>Medical Record</h2>
-        <form id="record-form">
-            <input type="text" id="record-id" placeholder="Patient ID">
-            <button type="submit">Create Medical Record</button>
-        </form>
+        <div id="record">
+            <h2>Medical Record</h2>
+            <form id="record-form">
+                <input type="text" id="record-id" placeholder="Patient ID">
+                <button type="submit">Create Medical Record</button>
+            </form>
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
